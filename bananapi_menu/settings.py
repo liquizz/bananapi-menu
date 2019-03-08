@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'menu.apps.MenuConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,7 +78,7 @@ DATABASES = {
      'default': {
          'ENGINE': 'djongo',
          'NAME': 'bananapi-menu',
-         'PORT': 27018,
+         'PORT': 8002,
      }
  }
 
