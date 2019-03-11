@@ -1,0 +1,17 @@
+[Unit]
+Description=Network Packets Capture service
+Requires=network.target
+#After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/user/bananapi-menu/menu/scripts/main.out
+#RemainAfterExit=true
+#ExecStop=/opt/foo/teardown-foo.sh
+#StandardOutput=journal
+
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

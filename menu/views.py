@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic.edit import FormView
 from django.http import HttpResponse
-from menu.scripts.TestScript import function
+from menu.scripts.TestScript import LaunchProcess, function
 
 # Create your views here.
 
