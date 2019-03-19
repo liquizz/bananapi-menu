@@ -1,0 +1,74 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="{% static 'frameworks/jquery-3.3.1.min.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'frameworks/bootstrap.css' %}">   
+        <script src="{% static 'frameworks/bootstrap.js' %}"></script>
+
+
+            <!--Стили-->
+        <link rel="stylesheet" href="{% static 'MainStyle.css' %}">
+
+
+</head>
+    <body>
+        <!--Header-->
+        
+            <!--Middle-->
+            <div class="container">
+                
+                <div class="row">
+                <!--Menu-->
+                
+                    <div class="col-sm-3 back_block-color">
+                        <div class="menu brdr-radius">
+
+                            <p class="logo-img_inside">IB</p>
+
+                            <hr>
+
+
+                            {% include 'blockLeftMenu.html' %}
+
+                        </div>
+
+                        <div class="cont-onOff brdr-radius">
+                            <p class="on_off">ON | OFF </p>
+
+
+                        </div>
+        
+                    </div>
+                    <!--Content-->
+                    <div class="col-sm-9 back_block-color">
+                    
+                        <div class="content brdr-radius">
+        
+        
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--bottom-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 back_block-color">
+                    <div class="bottom brdr-radius">
+        
+        
+        
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+    </body>
+</html>

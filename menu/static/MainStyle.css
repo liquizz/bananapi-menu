@@ -1,0 +1,58 @@
+.back_block-color{
+    
+}
+.brdr-radius{
+    border-radius: 6px;
+    border: 1px solid hsl(0, 2%, 76%);
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.49);
+    box-shadow: 0px 0px 11px -3px rgba(0,0,0,0.49);
+}
+.content{
+
+    width: 100%;
+    height: 415px;
+    background-color: white;
+    
+}
+
+.logo-img_inside{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.menu{
+
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    padding-top: 20px;
+}
+.cont-onOff{
+    margin-top: 15px;
+    height: 100px;
+
+}
+.on_off{
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.blockLink{
+
+    width: 100%;
+    padding-top: 10px;
+}
+.linkOfmenu{
+    background-color: rgb(255, 255, 255);
+    
+}
+.bottom{
+
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    background-color: white;
+}
+

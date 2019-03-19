@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <h1>List of URL's</h1>
+    </head>
+
+    <body>
+        {% if urls.count > 0 %}
+        <table>
+            <tr>
+                <td>Url ({{ urls.count }})</td>
+            </tr>
+        {% for url in urls %}
+            <tr>
+                <td>{{ url.url_name }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+        {% else %}
+        <p>Nothing here</p>
+        {% endif %}
+    </body>
+</html>
